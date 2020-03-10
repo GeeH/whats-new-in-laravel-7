@@ -24,9 +24,11 @@ Route::get('/casts', function () {
     return (string)$transaction->amount;
 });
 
-Route::get('/blade-components', 'BladeComponents');
+Route::get('/blade-components', function () {
+    return view('components');
+});
 
-Route::get('/http-client', function(){
+Route::get('/http-client', function () {
     $response = Http::get('http://www.recipepuppy.com/api/?i=garlic,bread');
 
     $response = Http::asForm()->post('https://api.myapp.com/v1/login', [
