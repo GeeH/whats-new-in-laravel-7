@@ -14,6 +14,7 @@ Sample code for the blog post you can find at []()
 All the routes are defined in `routes\web.php`
 
 `/casts` - example of Custom Casts in Eloquent ORM
+
 `/blade-components` - example of blade components
+
 `/http-client-get` - example of a GET request using the new Guzzle wrapper
-`/http-client-post` - example of POST request with form fields
