@@ -18,3 +18,5 @@ All the routes are defined in `routes\web.php`
 `/blade-components` - example of blade components
 
 `/http-client-get` - example of a GET request using the new Guzzle wrapper
+
+There is also a sample test you can find under `tests\Feature\HttpTest.php` which can be run with `php artisan test`
